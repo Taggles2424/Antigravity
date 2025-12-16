@@ -1,0 +1,10 @@
+
+# .gitignore
+bin/
+out/
+.settings/
+.classpath
+.project
+*.class
+*.iml
+.vscode/
