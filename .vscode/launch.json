@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ImageTransform",
+            "request": "launch",
+            "mainClass": "at.aau.itec.emmt.ImageTransform",
+            "projectName": "Antigravity_a740a8cf",
+            "cwd": "${workspaceFolder}/HW7_Reitinger/HaarWavelet_Stubs"
+        },
+        {
+            "type": "java",
+            "name": "Run Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "cwd": "${fileDirname}"
+        }
+    ]
+}
