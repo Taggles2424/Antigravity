@@ -16,6 +16,8 @@ public class ImageTransform {
         int transformationLevel = 4;
 
         double[][] matrix = readGreyScaleImage(new File("transformed_geo.png"));
+        // double[][] matrix = readGreyScaleImage(new File("transformed_horses.png"));
+        // double[][] matrix = readGreyScaleImage(new File("transformed_lena.png"));
         matrix = shiftHPValues(matrix, matrix.length >> transformationLevel, -128);
         matrix = reconstruct2D(matrix, transformationLevel);
         storeGreyScaleImage(new File("reconstructed.png"), matrix);
