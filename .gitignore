@@ -1,4 +1,3 @@
-
 # .gitignore
 bin/
 out/
@@ -8,3 +7,17 @@ out/
 *.class
 *.iml
 
+# IDE Files
+.idea/
+.vscode/
+
+# HW Generated Files
+**/frames/
+*.png
+*.jpg
+*.jpeg
+*.yuv
+*.y4m
+*.webm
+*.mp4
+*.zip
